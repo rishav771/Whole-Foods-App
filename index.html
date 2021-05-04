@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PDP</title>
+    <link type="text/css" rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Google+Sans:400,500,700">
+    <link href="src/css/styles.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="components/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="//assets.adobedtm.com/224be2da76aa/fd18ee4d7ae7/launch-5c2c450353bc-development.min.js" async></script>
+</head>
+
+<body class="index-body">
+    <section class="home-banner">
+        <div class="cover-banner">
+            <img title="McDonald's Logo" src="src/img/1200px-Whole_Foods_Market_201x_logo.svg.png"
+                alt="McDonald's Logo" />
+
+            <div class="jumbo">
+                <div class="img"></div>
+                <div class="container pt">
+                    <div class="mt-5 text-color">
+                        <h1>Find the Best Ingredients</h1>
+                    </div>
+                    <div class="row mx-auto well col-lg-12 mt-5">
+                        <div class="col-xs-4 pr-0">
+                            <select id="select_id" class="form-control form-control-lg">
+                                <option value="Select City" hidden>Select City</option>
+                                <option value="4">Bengaluru</option>
+                                <option value="3">Mumbai</option>
+                                <option value="1">Delhi</option>
+                                <option value="6">Hyderabad</option>
+                                <option value="5">Pune</option>
+                            </select>
+                        </div>
+                        <div class="col-xs-6 pl-0 pr-0">
+                            <input id="getText" type="text" class="form-control" placeholder="Search for Menu">
+                        </div>
+                        <button id="getMessage" class="btn btn-success col-xs-2">Search</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="two-cards">
+        <div class="card card-1" onclick="window.location.href='src/html/product.html'" id="noonetouchorder">
+            <img src="src/img/order.jpg"/>
+            <p>Order Online</p>
+        </div>
+        <div class="card card-2" onclick="window.location.href='src/html/store.html'" id="noonetouch">
+            <img src="src/img/local.jpg" />
+            <p>Local Store</p>
+        </div>
+    </section>
+
+
+    <section class="festival">
+        <div class="container">
+            <h2>Festival Delish</h2>
+            <p>Diwali Specials</p>
+            <div class="row multi-slider">
+                <div class="col-md-12 col-lg-10 col-lg-offset-1">
+                    <div class="carousel carousel-showmanymoveone slide multi-item-carousel" id="theCarousel">
+                        <div class="carousel-inner">
+                            <div class="item active">
+                                <div class="col-xs-12 col-sm-6 col-md-4"><a href="src/html/pdp1.html"><img
+                                            src="src/img/jamun.jpg" class="img-responsive"></a></div>
+                            </div>
+                            <div class="item">
+                                <div class="col-xs-12 col-sm-6 col-md-4"><a href="src/html/pdp2.html"><img
+                                            src="src/img/kachori.jpg" class="img-responsive"></a></div>
+                            </div>
+                            <div class="item">
+                                <div class="col-xs-12 col-sm-6 col-md-4"><a href="src/html/pdp3.html"><img
+                                            src="src/img/kaju-barfi_650x400_71501923806.webp"
+                                            class="img-responsive"></a></div>
+                            </div>
+                            <div class="item">
+                                <div class="col-xs-12 col-sm-6 col-md-4"><a href="#1"><img
+                                            src="src/img/Soan_sohan_papdi_India_Festive_Sweets.jpg"
+                                            class="img-responsive"></a></div>
+                            </div>
+                            <div class="item">
+                                <div class="col-xs-12 col-sm-6 col-md-4"><a href="#1"><img src="src/img/jamun.jpg"
+                                            class="img-responsive"></a></div>
+                            </div>
+                            <div class="item">
+                                <div class="col-xs-12 col-sm-6 col-md-4"><a href="#1"><img src="src/img/food.jpg"
+                                            class="img-responsive"></a></div>
+                            </div>
+                        </div>
+                        <a class="left carousel-control" href="#theCarousel" data-slide="prev"><i
+                                class="glyphicon glyphicon-chevron-left"></i></a>
+                        <a class="right carousel-control" href="#theCarousel" data-slide="next"><i
+                                class="glyphicon glyphicon-chevron-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="festival">
+        <div class="container">
+            <h2>Recommended</h2>
+            <div class="row multi-slider">
+                <div class="col-md-12 col-lg-10 col-lg-offset-1">
+                    <div class="carousel carousel-showmanymoveone slide multi-item-carousel" id="theCarousel">
+                        <div class="carousel-inner">
+                            <div class="item active">
+                                <div class="col-xs-12 col-sm-6 col-md-4"><a href="src/html/pdp1.html"><img
+                                            src="src/img/jamun.jpg" class="img-responsive"></a></div>
+                            </div>
+                            <div class="item">
+                                <div class="col-xs-12 col-sm-6 col-md-4"><a href="src/html/pdp2.html"><img
+                                            src="src/img/kachori.jpg" class="img-responsive"></a></div>
+                            </div>
+                            <div class="item">
+                                <div class="col-xs-12 col-sm-6 col-md-4"><a href="src/html/pdp3.html"><img
+                                            src="src/img/kaju-barfi_650x400_71501923806.webp"
+                                            class="img-responsive"></a></div>
+                            </div>
+                            <div class="item">
+                                <div class="col-xs-12 col-sm-6 col-md-4"><a href="#1"><img
+                                            src="src/img/Soan_sohan_papdi_India_Festive_Sweets.jpg"
+                                            class="img-responsive"></a></div>
+                            </div>
+                            <div class="item">
+                                <div class="col-xs-12 col-sm-6 col-md-4"><a href="#1"><img src="src/img/jamun.jpg"
+                                            class="img-responsive"></a></div>
+                            </div>
+                            <div class="item">
+                                <div class="col-xs-12 col-sm-6 col-md-4"><a href="#1"><img src="src/img/food.jpg"
+                                            class="img-responsive"></a></div>
+                            </div>
+                        </div>
+                        <a class="left carousel-control" href="#theCarousel" data-slide="prev"><i
+                                class="glyphicon glyphicon-chevron-left"></i></a>
+                        <a class="right carousel-control" href="#theCarousel" data-slide="next"><i
+                                class="glyphicon glyphicon-chevron-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <script src="src/js/index.js"></script>
+</body>
+
+</html>
